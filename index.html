@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>website-notifier</title>
+  <style>body{font-family:Arial;margin:40px;background:#f5f7fb;color:#222} .box{background:#fff;padding:20px;border-radius:8px;max-width:800px;margin:auto;box-shadow:0 2px 8px rgba(0,0,0,0.08)}</style>
+</head>
+<body>
+  <div class="box">
+    <h1>website-notifier</h1>
+    <p>This repository contains a notifier configured to run via GitHub Actions on a January 2027 date. Edit <code>config/config.json</code> and <code>config/subscribers.json</code> to change the message and recipients.</p>
+    <p>To enable real email sending, add the following repository secrets: <code>SENDGRID_API_KEY</code> and <code>FROM_EMAIL</code>.</p>
+    <p>To trigger a test send manually, go to the Actions tab, open the "Send Scheduled Notifications" workflow, and click <em>Run workflow</em> (workflow_dispatch).</p>
+    <p>Workflow file: <code>.github/workflows/send_on_date.yml</code></p>
+    <hr/>
+    <p><a href="https://github.com/taimmostafa35-byte/website-notifier">Open repository on GitHub</a></p>
+  </div>
+</body>
+</html>
